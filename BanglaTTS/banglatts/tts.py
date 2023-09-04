@@ -150,7 +150,7 @@ def getsample(filename, bangla_tts):
     print(f'score: {(sum(avg) / 10)*63205}')
 if __name__ == '__main__':
     bangla_tts = BanglaTTS(save_location='test')
-    getsample('D:/New folder/NLP_assignment/as01/BanglaTTS/words.csv', bangla_tts)
+    getsample('../BanglaTTS/words.csv', bangla_tts)
 
 
 
