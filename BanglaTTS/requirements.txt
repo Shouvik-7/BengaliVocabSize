@@ -1,0 +1,5 @@
+aksharamukha>=2.1.2
+omegaconf>=2.3.0
+torch
+scipy
+chardet
