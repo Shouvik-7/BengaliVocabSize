@@ -12,4 +12,4 @@ def getsample(filename):
         df.sample(20).to_csv(f'./banglatts/Samples/{n}.csv',index=False)
 
 if __name__ == '__main__':
-    getsample('D:/New folder/NLP_assignment/as01/BanglaTTS/words.csv')
+    getsample('./BanglaTTS/words.csv')
